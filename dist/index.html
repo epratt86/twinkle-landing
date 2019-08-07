@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/f4de330bf2.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/simplelightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>twinkleintime</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <img src="/dist/img/logo-color.png" alt="twinkleintime" class="logo" />
+        <ul class="nav">
+          <li><a href="#home" class="btn">Create Star Map</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>Give The Gift Of A Magical Moment Captured In The Stars.</h1>
+          <p>
+            Create a 18"x24" star map that shows the stars exactly as they were
+            on a specific date and location with a personalized message!
+          </p>
+          <a href="#" class="btn"
+            >Read More &nbsp; <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+        <img src="img/twinkle-woodframe.jpg" alt="TwinkleInTime" />
+      </div>
+    </section>
+
+    <!-- Overlay Text -->
+    <section class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner">
+          <h3>A Twinkle In Time, You Want To Remember</h3>
+          <h2>Your Custom Star Map</h2>
+          <p>
+            Our lives are filled with precious moments that we want to cherish
+            forever.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+      <div class="gallery">
+        <a href="img/inspiration3.jpg" class="big"
+          ><img src="img/inspiration3.jpg" alt="Mom and daughter"
+        /></a>
+        <a href="img/inspiration2.jpg" class="big"
+          ><img src="img/inspiration2.jpg" alt="kids"
+        /></a>
+        <a href="img/inspiration7.jpg" class="big"
+          ><img src="img/inspiration7.jpg" alt="on bed"
+        /></a>
+        <a href="img/inspiration9.jpg" class="big"
+          ><img src="img/inspiration9.jpg" alt="the stars"
+        /></a>
+        <a href="img/inspiration10.jpg" class="big">
+          <img src="img/inspiration10.jpg" alt="dogs love us"
+        /></a>
+        <a href="img/inspiration6.jpg" class="big"
+          ><img src="img/inspiration6.jpg" alt="Mom and son"
+        /></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Social Media</h2>
+          <a href="https://www.facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.pintrest.com">
+            <i class="fab fa-pinterest fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Keep In Touch</h3>
+          <p>Stay in touch with our latest inspiration, designs and more!</p>
+          <form name="email-form" method="POST" data-netlify="true">
+            <div class="email-form">
+              <span class="form-control-wrap">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="Email"
+                />
+              </span>
+              <button type="submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/simple-lightbox.js"></script>
+    <script>
+      // Lightbox uses jQuery
+      $(function() {
+        const $gallery = $('.gallery a').simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
